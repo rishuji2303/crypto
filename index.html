@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #card{
+    border-radius: 50px;
+    border-color: black;
+  }
+  .card-body{
+    border-radius: 20px;
+  }
+  .tradingview-widget-copyright {
+    font-size: 13px !important;
+    line-height: 32px !important;   
+    text-align: center !important;
+    vertical-align: middle !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+    color: #B2B5BE !important;
+    display: none !important;
+        }
+  
+        body{
+    margin: 0px;
+  }
+  .Menu{
+    border: 20px solid black;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+  }
+  a{
+    padding-right: 70px;
+  }
+  .content {
+    background-color: #000000; 
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: antiquewhite
+  }
+  #carousel-item active{
+   height: ;
+  
+  }
+  #mi{
+    height: 623px;
+    
+  }
+  .hi{
+    height:100%;
+    width: 100%;'
+    
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 130px;
+    display: inline-flex;
+    justify-content: space-around ;
+    background-image: url('https://i.postimg.cc/cCsKwM9L/sol-Manager.webp');
+    border: 1px solid black;
+  }
+  .Ac{
+        background-image:url('https://i.postimg.cc/cCsKwM9L/sol-Manager.webp');
+  }
+  /* Reset and basic styles */
+  #footerBODY{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .site-footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+  }
+  
+  .site-footer .container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+  
+  .site-footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .site-footer .footer-section {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+  }
+  
+  .site-footer h2 {
+    color: #f39c12;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .site-footer p {
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .site-footer .contact p {
+    margin-bottom: 10px;
+  }
+  
+  .site-footer .socials a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #444;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .site-footer .socials a:hover {
+    background-color: #f39c12;
+  }
+  
+  .site-footer .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .site-footer .links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .site-footer .links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .site-footer .links ul li a:hover {
+    color: #f39c12;
+  }
+  
+  .site-footer .contact-form .text-input,
+  .site-footer .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 4px;
+  }
+  
+  .site-footer .contact-form .btn-primary {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .site-footer .contact-form .btn-primary:hover {
+    background-color: #e67e22;
+  }
+  
+  .footer-bottom {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+  }
+  #op{
+    display: none !important;
+  }
+  .carousel slide{
+    border-radius: 50px;
+    border-color: black;
+  }
+  #card{
+    border-radius: 50px;
+    border-color: black;
+  }
+  .card-body{
+    border-radius: 20px;
+    background-color: none;
+  }
+  .socials{
+    display: none !important;
+  }
+  .footer-bottom{
+    display: none !important;
+  }
+  #footerBODY{
+    background-color: #B2B5BE;
+    border-top: #B2B5BE;
+  }
+  .card-img-top
+  {
+    border-radius: 20px;
+  }
+  .card{
+    background-color: none !important;
+  }
+    </style>
+    <link rel="stylesheet" href="our.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</head>
+  
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols":
+      {
+        "description": "",
+        "proName": "BINANCE:BTCUSDT"
+      },
+      {
+        "description": "",
+        "proName": "BINANCE:ETHUSDT"
+      },
+      {
+        "description": "",
+        "proName": "COINBASE:SOLUSD"
+      },
+      {
+        "description": "",
+        "proName": "BINANCE:DOGEUSDT"
+      },
+      {
+        "description": "",
+        "proName": "BINANCE:AVAXUSDT"
+      }
+  
+    "showSymbolLogo": true,
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "colorTheme": "light",
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <nav class="Menu" >
+    <a>Home</a>
+    <a>Menu</a>
+    <a>About us</a>
+    <a>Contact us</a>
+  </nav>
+
+
+
+  <div id="image">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div id="mi">
+          <div class="hi">
+
+            
+        <img src="https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2022/08/solana_logo-1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div id="mi">
+          <div class="hi">
+        <img src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Fa1e9316b817a4a358b50a82771bc9622&w=3840&q=75" class="d-block w-100" alt="...">
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div id="mi">
+          <div class="hi">
+        <img src="https://www.tbstat.com/wp/uploads/2023/10/20230810_Solana_News2-1200x675.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<section class="content">
+    <h2>Welcome to Our Cryptocurrency Platform</h2>
+    <p>Explore the world of cryptocurrencies and blockchain technology with us.</p>
+    
+</section>
+<div class="Ac">
+ 
+
+<div id="card">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bytetree.com/content/images/size/w1200/2023/12/2023-12-14-solana-banner.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Decoding Solana: The Rise and Resilience</h5>
+      <p class="card-text">Solana is a layer-1 smart contracts blockchain platform recognised for its cost-effectiveness and high throughput.</p>
+      <a href="https://www.bytetree.com/research/2023/12/decoding-solana-the-rise-and-resilience/" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
+<div id="card">
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.postimg.cc/c4xqqT4T/29-1.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Solana Foundation Unveils Blinks to Simplify Transactions Onchain</h5>
+      <p class="card-text">These tools offer way to integrate blockchain transactions into any platform.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
+<div id="card" style="background-color: none;">
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.postimg.cc/pL5q3n8q/3-1.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">PayPal Announces PYUSD on Solana</h5>
+      <p class="card-text">PayPal USD (PYUSD) is now available on Solana, the company announced at Consensus 2024 in Austin, Texas.</p>
+      <a href="https://solana.com/news/paypal-pyusd-on-solana" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
+<div id="card">
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.postimg.cc/CLTGd6fH/4-1.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Gemini Now Supports Solana (SOL)</h5>
+      <p class="card-text">Solana (SOL) is now available for trading on our API/FIX and ActiveTrader applications for USD trading pairs, and on the Gemini .</p>
+      <a href="https://www.gemini.com/blog/gemini-now-supports-solana-sol" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
+<div id="card">
+  <div class="card" style="width: 18rem;">
+    <img src="https://i.postimg.cc/G3YY0JSB/5-1.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Case Study: Helio’s Shopify x Solana Pay Plugin Powers Phone Sales</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="https://solana.com/news/case-study-helio" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
+<div id="card">
+  <div class="card" style="width: 18rem;">
+    <img src="https://static.euronews.com/articles/stories/06/90/19/34/1440x810_cmsv2_1c274f6a-70e9-5810-8da1-eb2041dda5bb-6901934.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">An emerging financial technology that uses blockchains. </h5>
+      <p class="card-text">The posing questions about the security of DeFi, an emerging  technology that uses blockchains. </p>
+      <a href="https://www.euronews.com/next/2022/08/03/solana-sol-has-been-targeted-in-the-latest-crypto-hack-attack-heres-what-we-know-so-far" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<section id="footerBODY">
+  <footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>YourCryptoCompany is dedicated to providing the latest news, analysis, and insights into the world of cryptocurrencies.</p>
+                <div class="contact">
+                    <p><i class="fa fa-phone"></i> +1234567890</p>
+                    <p><i class="fa fa-envelope"></i>rbrowny431@gmail.com</p>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+                    <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p id="op">&copy; 2024 YourCryptoCompany. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+</section>
+</body>
+</html>
